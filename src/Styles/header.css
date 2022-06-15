@@ -1,0 +1,37 @@
+nav{
+    height: 100px;
+    border: 1px solid white;
+    background-color: yellowgreen;
+   
+}
+input{
+    height: 60px;
+    width: 700px;
+    margin-right: 200px;
+   
+}
+.div-header{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-png{
+    height: 100px;
+    width: 100px;
+    padding: 0 20px;
+   
+}
+.header-png{
+    width: 100px;
+    height:  95px;
+    padding: 0 20px;
+}
+.header-logo{
+    width: 160px;
+    height:  95px;
+    padding: 0 20px;
+    margin-right: 200px;
+}
