@@ -1,0 +1,15 @@
+.div-footer{
+    height: 100px;
+    border: 1px solid white;
+    background-color: yellowgreen;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+   
+}
+.div-footer p{
+
+    font-size: 20px;
+   
+}

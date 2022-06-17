@@ -1,11 +1,9 @@
 import React from 'react'
 import {useState} from 'react'
-import '../Styles/featureBanner.css'
+import '../Styles/Carousel.css'
 
-export const ImageSlider = ({slide}) => {
+export const Carousel = ({slide}) => {
     const [currentIndex,setCurrentIndex]=useState(0);
-    // style={{backgroundImage:`url(${slides[currentIndex].url})`}}
-    
     const goToPrevious =()=>{
         const isFirstSlide = currentIndex===0;
         const newIndex = isFirstSlide?slide.length-1:currentIndex-1
@@ -32,4 +30,4 @@ export const ImageSlider = ({slide}) => {
     </div>
   )
 };
-export default ImageSlider
+export default Carousel

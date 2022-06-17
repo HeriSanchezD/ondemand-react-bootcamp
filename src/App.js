@@ -3,7 +3,7 @@ import './App.css';
 import { useFeaturedBanners } from './utils/hooks/useFeaturedBanners';
 import HeaderComponent from './components/HeaderComponent';
 import FooterComponent from './components/FooterComponent';
-import SlideBannerComponent from './components/SlideBannerComponent';
+import HomePageComponent from './components/HomePageComponent';
 
 function App() {
   const { data, isLoading } = useFeaturedBanners();
@@ -18,7 +18,7 @@ function App() {
       <header>
         <HeaderComponent/>
       </header>
-      <SlideBannerComponent/>
+      <HomePageComponent/>
       <footer>
         <FooterComponent/>
       </footer>

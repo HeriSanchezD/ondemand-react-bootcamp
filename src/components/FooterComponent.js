@@ -1,9 +1,13 @@
 import React from 'react'
+import '../Styles/footer.css'
 
 export const FooterComponent = () => {
   return (
     <div>
-        <p></p>
+      <div className='div-footer'>
+        <p>Ecommerce created during Wizeline’s Academy React Bootcamp </p>
+      </div>
+        
     </div>
   )
 }
