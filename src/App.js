@@ -1,8 +1,8 @@
-import './App.css';
-import { useFeaturedBanners } from './utils/hooks/useFeaturedBanners';
-import HeaderComponent from './components/HeaderComponent';
-import FooterComponent from './components/FooterComponent';
-import HomePageComponent from './components/HomePageComponent';
+import "./App.css";
+import { useFeaturedBanners } from "./utils/hooks/useFeaturedBanners";
+import HeaderComponent from "./components/HeaderComponent";
+import FooterComponent from "./components/FooterComponent";
+import HomePageComponent from "./components/HomePageComponent";
 
 function App() {
   const { data, isLoading } = useFeaturedBanners();
@@ -11,19 +11,17 @@ function App() {
   return (
     <div className="App">
       {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logovv" />
        
       </header> */}
       <header>
-        <HeaderComponent/>
+        <HeaderComponent />
       </header>
-      <HomePageComponent/>
+      <HomePageComponent />
       <footer>
-        <FooterComponent/>
+        <FooterComponent />
       </footer>
-      
     </div>
-    
   );
 }
 
