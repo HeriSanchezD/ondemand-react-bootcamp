@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 1rem auto;
+}
+.productsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: dense;
+    grid-gap: 0.3rem;
+    border: 1px solid #ccc;
+}
+.productContainer{
+    float: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+   
+}
+.productContainer p{
+    size: 200px;
+    margin: 0 auto;
+}
+.productContainer img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}

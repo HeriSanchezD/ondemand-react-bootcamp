@@ -1,0 +1,16 @@
+.containerBanner{
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.slideStyle{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.sliderStyle{
+    height: 100%;
+    position: relative;
+}

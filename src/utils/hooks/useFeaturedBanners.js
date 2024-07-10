@@ -25,9 +25,13 @@ export function useFeaturedBanners() {
             '[[at(document.type, "banner")]]'
           )}&lang=en-us&pageSize=5`,
           {
+            
             signal: controller.signal,
           }
         );
+        console.log(`${API_BASE_URL}/documents/search?ref=${apiRef}&q=${encodeURIComponent(
+          '[[at(document.type, "banner")]]'
+        )}&lang=en-us&pageSize=5`)
         const data = await response.json();
 
         setFeaturedBanners({ data, isLoading: false });
